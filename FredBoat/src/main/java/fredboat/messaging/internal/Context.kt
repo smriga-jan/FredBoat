@@ -29,6 +29,8 @@ import com.fredboat.sentinel.entities.Embed
 import com.fredboat.sentinel.entities.SendMessageResponse
 import com.fredboat.sentinel.entities.embed
 import com.fredboat.sentinel.entities.passed
+import com.sun.org.slf4j.internal.Logger
+import com.sun.org.slf4j.internal.LoggerFactory
 import fredboat.command.config.PrefixCommand
 import fredboat.commandmeta.MessagingException
 import fredboat.feature.I18n

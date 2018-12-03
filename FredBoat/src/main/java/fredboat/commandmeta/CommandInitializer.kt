@@ -122,7 +122,7 @@ class CommandInitializer(cacheMetrics: CacheMetricsCollector, weather: Weather, 
         infoModule.registerCommand(TextCommand("https://github.com/Frederikam", "github"))
         infoModule.registerCommand(TextCommand(BotConstants.GITHUB_URL, "repo"))
         infoModule.registerCommand(SentinelsCommand("sentinels", "sentisneks", "slist"))
-        infoModule.registerCommand(UptimeCommand("uptime", sentinel.selfUser))
+        infoModule.registerCommand(UptimeCommand("uptime"))
 
 
         // Configurational stuff - always on
